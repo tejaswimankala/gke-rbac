@@ -5,7 +5,7 @@ metadata:
   namespace: ns-cloudops
 subjects:
 - kind: User
-  name: sharmila.tarra@dxc.com
+  name: jane@example.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
