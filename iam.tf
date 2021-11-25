@@ -22,5 +22,5 @@ resource "google_project_iam_custom_role" "kube-api-ro" {
 resource "google_project_iam_member" "kube-api-ro" {
   project = var.project
   role    = "roles/container.viewer"
-  member  = "user:sharmila.tarra@dxc.com"
+  member  = "user:jane@example.com"
 }
