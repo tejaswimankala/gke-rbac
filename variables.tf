@@ -1,7 +1,7 @@
 variable "project" {
   description = "The name of the project in which to create the Kubernetes cluster."
   type        = string
-  default = "skilled-cargo-319212"
+  default = ""
 }
 
 
